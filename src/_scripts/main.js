@@ -3,10 +3,8 @@
 
 'use strict';
 
-import $ from 'jquery';
-import Link from '../_modules/link/link';
-
-$(() => {
-  new Link(); // Activate Link modules logic
-  console.log('Welcome to Yeogurt!');
-});
+TweenMax.to('#animate', 15, {
+    rotation: 3600, 
+    transformOrigin:"50% 50%",
+    ease: Power4.easeOut,
+  });
