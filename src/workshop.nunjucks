@@ -1,0 +1,78 @@
+{% extends '_layouts/baseWorkshop.nunjucks' %}
+
+
+{% block content %}
+
+<div class="project project-right project__item1">
+    <div class="img-wrapper">
+        <img src="images/workshop/01.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">IDENTITY // WEBSITE // PRINT</p>
+        <p class="main-title">Innovative Hire</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+<div class="project project__item2">
+    <div class="img-wrapper">
+        <img src="images/workshop/02.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">Website // Print</p>
+        <p class="main-title">The Noisy Lobster</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+<div class="project project-right project__item3">
+    <div class="img-wrapper">
+        <img src="images/workshop/03.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">IDENTITY // WEBSITE // PRINT</p>
+        <p class="main-title">Bournemouth Christmas Market</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+<div class="project project__item4">
+    <div class="img-wrapper">
+        <img src="images/workshop/04.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">Website</p>
+        <p class="main-title">Johnny Yates Composer</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+<div class="project project-right project__item5">
+    <div class="img-wrapper">
+        <img src="images/workshop/05.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">Identity // Website</p>
+        <p class="main-title">Fatstick Boards</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+<div class="project project__item6">
+    <div class="img-wrapper">
+        <img src="images/workshop/06.jpg" alt="" />
+        <div class="overlay"></div>
+    </div>
+    <div class="text-folder">
+        <p class="intro-title">Print // Web</p>
+        <p class="main-title">Various Work</p>
+        <p class="small-title">See case study</p>
+    </div>
+</div>
+
+{% endblock %}

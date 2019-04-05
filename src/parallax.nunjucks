@@ -1,0 +1,31 @@
+{% extends '_layouts/parallax.nunjucks' %}
+
+
+{% block content %}
+Scroll magic
+{# <section class="elementCover">
+    scrollDown
+</section>
+<section id="animationSectionOne" class="elementCover">
+    <div class="element element__1">1</div>
+    <div class="element element__2">2</div>
+    <div class="element element__3">3</div>
+    <div class="element element__4">4</div>
+</section>
+<section id="animationSectionTwo" class="elementCover">
+    <div class="element element__5">
+        <div class="overlay"></div>
+        <img src="https://milkisnice.com/wp-content/themes/milkisnice_theme/img/xnoisy_lobster_2.jpg.pagespeed.ic.FQiJlLamJz.webp" />
+        
+    </div>
+    <div class="element element__6">
+        <div class="overlay"></div>
+        <img src="https://milkisnice.com/wp-content/themes/milkisnice_theme/img/xnoisy_lobster_2.jpg.pagespeed.ic.FQiJlLamJz.webp" />
+    </div>
+    <div class="element element__7">7</div>
+    <div class="element element__8">8</div>
+</section>
+<section class="elementCover">
+    scrollUp
+</section> #}
+{% endblock %}
